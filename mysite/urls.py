@@ -19,5 +19,5 @@ from biblioteca.views import mostrar_libros
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('libros/', mostrar_libros, name='mostrar_libros'),
+    path('', mostrar_libros, name='mostrar_libros'),
 ]
